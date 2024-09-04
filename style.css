@@ -47,7 +47,7 @@ body > header > nav > ul {
 }
 
 body > header {
-    background-color: orange;
+    background-color: rgb(30, 36, 99);
     color: white;
     display: flex;
     height: 12vh;
@@ -84,7 +84,7 @@ form {
 }
 
 body > footer {
-background-color: orange;
+background-color:  rgb(30, 36, 99);
 display: flex;
 }
 
