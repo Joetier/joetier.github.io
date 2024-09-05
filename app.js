@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
-
+document.addEvenListener("DOMContentLoaded", () => {
+;t;
     const images = document.querySelectorAll("img");
 
     for(const image of images) {

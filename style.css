@@ -1,19 +1,40 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    font-size: 1.5vw
+    font-size: 1.5vw;
+}
+
+body > header {
+    background-color: #6A6E09;
+    color: white;
+    display: inline;
+    height: 22vh;
+   
+    
+}
+
+body {
+
+    background-color: #FFE5AD
+}
+
+#main-header {
+   
+display:flex;
+    
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif, Helvetica, sans-serif;
-    width: 18%;
+    width: 20%;
     text-shadow:
     1px 1px 0px black,
     -1px 1px 0px black,
     1px -1px 0px black,
     -1px -1px 0px black;
+    justify-content: space-between;
 }
 
 ul {
@@ -35,7 +56,9 @@ body > header > nav > ul {
 
 #nav-ul {
 
-    display:flex
+    display:flex;
+    margin-left: 1vh;
+    text-decoration: none;
 
 }
 
@@ -46,15 +69,7 @@ body > header > nav > ul {
 
 }
 
-body > header {
-    background-color: rgb(30, 36, 99);
-    color: white;
-    display: flex;
-    height: 12vh;
-    align-items: center;
-    justify-content: space-around;
-    
-}
+
 
 body > main article {
     width: 80%;
@@ -84,14 +99,15 @@ form {
 }
 
 body > footer {
-background-color:  #1e2463;
+background-color:  #FFE5AD;
 color: white;
 display: flex;
 font-family: "Fredoka One", sans-serif, Helvetica, sans-serif;
 }
 
+
 img {
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 #footer-ul {
@@ -101,9 +117,15 @@ img {
 
 #footer-ul > div > li {
     margin-left: 12px;
+    margin-bottom: 5px;
 }
 
 #footer-ul > div> li > a {
     color: white;
     text-decoration: none;
+    border: 1px solid white;
+    border-width: 1.8px;
+    border-radius: 6%;
+    margin:0px
+    
 }
