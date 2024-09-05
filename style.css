@@ -84,8 +84,9 @@ form {
 }
 
 body > footer {
-background-color:  rgb(30, 36, 99);
+background-color:  #1e2463;
 display: flex;
+font-family: "Fredoka One", sans-serif, Helvetica, sans-serif;
 }
 
 img {
